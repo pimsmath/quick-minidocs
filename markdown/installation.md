@@ -1,4 +1,4 @@
-### How to install the software required to use minidocs?
+## How to install the software required to use minidocs?
 
 Minidocs is installed using `npm`, the [node.js](https://nodejs.org/en/) packager manager.
 

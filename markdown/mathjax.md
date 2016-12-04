@@ -1,10 +1,12 @@
-### Mathematical Notation?
+## Mathematical Notation?
 
-In principle, insertion of this script in the `<head>` will render TeX expressions into mathematical notation:
+In principle, insertion of this script in the `<head>` 
 
 ```<script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>```
+
+will render TeX expressions into mathematical notation.
 
 $$ \LaTeX $$
 

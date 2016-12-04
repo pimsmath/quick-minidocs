@@ -1,7 +1,7 @@
 
 
 
-This is an example site built using [`minidocs`](https://github.com/freeman-lab/minidocs). The site explains how to create a minidocs site, how to deploy it locally, and how to rapidly deploy it to the internet using `surge`.
+This is an example site built using [`minidocs`](https://github.com/freeman-lab/minidocs). Minidocs is a lightweight framework for documentation and online textbooks. This site explains how to create a minidocs site, how to deploy it locally, and how to rapidly deploy it to the internet using `surge`.
 
 ### Create
 

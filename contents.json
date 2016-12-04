@@ -7,7 +7,7 @@
   	"Deploy on surge.sh": "deploy-surge.md"
   		},
 "Extend": {
-  	"MathJax": "mathjax.md",
+  	"MathJax?": "mathjax.md",
     "GitHub": "github.md",
   	"Binder for Jupyter": "binder.md"
   		}

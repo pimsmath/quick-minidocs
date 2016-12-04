@@ -25,6 +25,6 @@ I showed how to enrich minidocs by adding extensions to:
 
 ### License and Source
 
-This site was created by [James Colliander](http://colliand.com) and is freely available under the [MIT License](http://choosealicense.com/licenses/mit/). 
+This site was created by [James Colliander](http://colliand.com) and is freely available under the [MIT License](./LICENCE). Click here for [more information on the MIT License](http://choosealicense.com/licenses/mit/). 
 
 The source code is available here on Github.

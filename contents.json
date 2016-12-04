@@ -1,0 +1,14 @@
+{
+	"Read Me":"README.md",
+"Create": {
+	"Installation": "installation.md",
+  	"Create site": "example-site-creation.md",
+  	"Deploy locally": "local-deploy.md",
+  	"Deploy on surge.sh": "deploy-surge.md"
+  		},
+"Extend": {
+  	"MathJax": "mathjax.md",
+    "GitHub": "github.md",
+  	"Binder for Jupyter": "binder.md"
+  		}
+}

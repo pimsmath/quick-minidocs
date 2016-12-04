@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<title>quick-minidocs</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="/bundle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div id="choo-root" class="minidocs">
+    <div class="_2bbb10f8 minidocs-sidebar">
+    <div class="minidocs-header">
+      <h1><a href="/"><img src="/pims3.png" alt="quick-minidocs" class="minidocs-logo" /></a></h1>
+    </div>
+    <div class="_606ae572 minidocs-contents">
+    <button class="minidocs-menu-toggle">Menu</button>
+    <div class="minidocs-menu menu-closed menu-small">
+      <div class="minidocs-menu-wrapper">
+        <div><a href="/README" class="content-link active">Read Me</a></div><div class="h1">Create</div><div><a href="/installation" class="content-link ">Installation</a></div><div><a href="/example-site-creation" class="content-link ">Create site</a></div><div><a href="/local-deploy" class="content-link ">Deploy locally</a></div><div><a href="/deploy-surge" class="content-link ">Deploy on surge.sh</a></div><div class="h1">Extend</div><div><a href="/mathjax" class="content-link ">MathJax</a></div><div><a href="/mermaid-js" class="content-link ">Diagrams</a></div><div><a href="/github" class="content-link ">GitHub</a></div><div><a href="/binder" class="content-link ">Binder for Jupyter</a></div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <div class="_571b6797 minidocs-main">
+      <div class="markdown-body">
+        <div class="_3f4b1fbc minidocs-content">
+    
+    
+    <div><p>This is an example site built using <a href="https://github.com/freeman-lab/minidocs"><code>minidocs</code></a>. The site explains how to create a minidocs site, how to deploy it locally, and how to rapidly deploy it to the internet using <code>surge</code>.</p>
+<h3 id="create">Create</h3>
+<p>I installed <code>node.js</code> to get the node package manager <code>npm</code>. I used <code>npm</code> to install <code>minidocs</code> and <code>http-server</code>.</p>
+<p>I created the site by making a folder called <code>quick-minidocs</code>. I created a subfolder called <code>markdown</code> containing <a href="https://daringfireball.net/projects/markdown/">markdown</a> files, and a <code>contents.json</code> file specifying some organizational structure. Then I ran this command in a terminal in the <code>quick-minidocs</code> folder:</p>
+<p><code>minidocs markdown/ -c contents.json -o site -l pims3.png</code></p>
+<p>That command generated a new subdirectory called <code>site</code>. To view the site, I deployed it locally by entering the <code>site</code> subdirectory and running <code>http-server</code>. I then viewed the site in my browser.</p>
+<p>I deployed the site to the internet using <code>surge.sh</code>.</p>
+<h3 id="extend">Extend</h3>
+<p>I showed how to enrich minidocs by adding extensions to:</p>
+<ul>
+<li>include mathematical notation using <a href="https://www.mathjax.org/">MathJax</a></li>
+<li>include flow charts and Gantt charts using <a href="https://knsv.github.io/mermaid/">mermaid.js</a></li>
+<li>share your site&#39;s code using <a href="https://github.com/">GitHub</a></li>
+<li>launch Jupyter pages from your site using <a href="http://mybinder.org/">Binder</a></li>
+</ul>
+<h3 id="license-and-source">License and Source</h3>
+<p>This site was created by <a href="http://colliand.com">James Colliander</a> and is freely available under the <a href="http://choosealicense.com/licenses/mit/">MIT License</a>. </p>
+<p>The source code is available here on Github.</p>
+</div>
+  </div>
+      </div>
+    </div>
+  </div>
+<script src="/bundle.js"></script>
+</body>
+</html>
